@@ -3,3 +3,6 @@ LLM project
 
 
 Large Language Models (LLMs) often struggle with user inputs that are ambiguous, underspecified, or illstructured, leading to suboptimal outputs. This proposal aims to investigate whether having an LLM rewrite a given input prompt into a clearer, more detailed prompt can improve the quality of the final response. In our approach, an auxiliary LLM will first rephrase or elaborate the user’s query before it is passed to the main LLM that produces the answer. We hypothesize that this intermediate prompt rewriting step will help expose hidden assumptions, add necessary detail, and ultimately lead to more accurate and useful answers, especially for complex reasoning tasks. We outline an experimental plan comparing answers with and without prompt rewriting across several models and benchmarks. We also discuss the development of automatic metrics and human evaluation criteria to assess improvements in output quality. If successful, this research could contribute a novel prompt-engineering strategy for boosting LLM performance on challenging queries without additional training of the main model.
+
+last report is "LLM_final_report.pdf" file.
+last code is "GRPO.ipynb" file.
